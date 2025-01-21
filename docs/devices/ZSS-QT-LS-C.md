@@ -23,7 +23,16 @@ pageClass: device-page
 
 
 <!-- Notes BEGIN: You can edit here. Add "## Notes" headline if not already present. -->
+## Notes
 
+### Pairing
+
+Use a pin to push the button through the whole that you will find in
+the back side of the device, on the left of the battery compartment.
+
+The device will show a green light. Keep pushing for 6 seconds, until
+the green light starts blinking, and release it. When the pairing is
+finished, the ligh goes off.
 
 <!-- Notes END: Do not edit below this line -->
 
@@ -56,4 +65,3 @@ Value can be found in the published state on the `linkquality` property.
 It's not possible to read (`/get`) or write (`/set`) this value.
 The minimal value is `0` and the maximum value is `255`.
 The unit of this value is `lqi`.
-
